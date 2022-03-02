@@ -5,12 +5,11 @@ body{
     width: 70%;
 }
 .container{
-    opacity: 0.5;
-    background-color: rgba(0, 0, 0, 1);
-    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
     background-size: 100%;
     color: white;
-
+    min-width: 100%;
 }
 .carousel-item{
     max-width: 100%;
@@ -24,9 +23,20 @@ body{
     color: red !important;
 }
 .homeimg{
-    opacity: 1;
     border: 2px solid white;
     border-radius: 10px;
+}
+.homeimg a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+
+}
+.homeimg a:hover{
+    text-decoration: none;
+    color: red;
+    font-size: 1.3rem;
+    
 }
 .homeimg img{
     opacity: 1;
@@ -40,4 +50,7 @@ body{
 }
 .card-body{
     color: black;
+}
+.align-right{
+    text-align: right;
 }
